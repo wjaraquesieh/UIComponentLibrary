@@ -34,3 +34,14 @@ docker start jara_wadia_coding_assignment13
 ## Stopping and Removing the Docker Container
 docker stop jara_wadia_coding_assignment13
 docker rm jara_wadia_coding_assignment13
+
+
+
+## Pre-Commit Checks
+Husky is set up to run the following checks on each commit:
+- ESLint for code linting.
+- Prettier for code formatting.
+- Tests for code integrity.
+
+## GitHub Actions CI
+A GitHub Actions workflow is set up to run on every push and pull request to the `main` branch.
