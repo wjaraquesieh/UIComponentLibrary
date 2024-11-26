@@ -1,7 +1,7 @@
-import React from 'react';
-import { StoryFn, Meta } from '@storybook/react/types-6-0';
-import Text from './Text';
-import { TextProps } from './Text.types';
+import React from 'react'
+import { StoryFn, Meta } from '@storybook/react/types-6-0'
+import Text from './Text'
+import { TextProps } from './Text.types'
 
 export default {
   title: 'UI/Text',
@@ -10,18 +10,18 @@ export default {
     disabled: { control: 'boolean' },
     children: { control: 'text' },
   },
-} as Meta;
+} as Meta
 
-const Template: StoryFn<TextProps> = (args) => <Text {...args} />;
+const Template: StoryFn<TextProps> = (args) => <Text {...args} />
 
-export const Default = Template.bind({});
+export const Default = Template.bind({})
 Default.args = {
   disabled: false,
   children: 'Sample text content.',
-};
+}
 
-export const Disabled = Template.bind({});
+export const Disabled = Template.bind({})
 Disabled.args = {
   disabled: true,
   children: 'Disabled text content.',
-};
+}
