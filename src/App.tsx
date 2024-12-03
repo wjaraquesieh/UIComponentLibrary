@@ -41,7 +41,7 @@ function App() {
       />
 
       <h2>Radio Button</h2>
-      <Label htmlFor="rbOption" children={'Select an Option'} />
+      <Label htmlFor="rbOption" children={'Select an new Option'} />
       <RadioButton label="Option 1" checked={false} name="rbOption" value="1" />
       <RadioButton label="Option 2" checked={true} name="rbOption" value="2" />
 
